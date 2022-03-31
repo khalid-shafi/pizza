@@ -29,21 +29,21 @@
                 <p>Crust</p>
             </div>
 
-         <form>
+         <form id="form">
             <div class="lufluf">
-                <select>
+                <select id="size">
                     <option>Choose Size</option>
                     <option value="1500">Large@1500</option>
                     <option value="1000">Medium@1000</option>
                     <option value="500">Small@500</option>
                 </select>
-                <select>
+                <select id="toppings">
                     <option>Choose Toppings</option>
                     <option value="200">Olives@200</option>
                     <option value="150">Cheese@150</option>
                     <option value="100">pepperoni@100</option>
                 </select>
-                <select>
+                <select id="crust">
                     <option>Choose Crust</option>
                     <option value="200">Stuffed@200</option>
                     <option value="150">Gliten-free@150</option>
@@ -52,10 +52,10 @@
             </div>
 
             <div class="inputs">
-                <input type="number" placeholder="Number of pizza">
+                <input type="number" placeholder="Number of pizza" id="number">
             </div>
 
-            <table class="table">
+            <table class="table" id="show">
                 <thead>
                   <tr>
                     <th scope="col">Quantity.</th>
@@ -67,16 +67,16 @@
                 </thead>
                 <tbody id="pizza">
                   <tr>
-                    <td id="number"></td>
-                    <td id="size"></td>
-                    <td id="toppings"></td>
-                    <td id="crust"></td>
-                    <td id="total"></td>
+                    <td id="quantity"></td>
+                    <td id="sizes"></td>
+                    <td id="toppingss"></td>
+                    <td id="crusts"></td>
+                    <td id="totals"></td>
                   </tr>
                 </tbody>
               </table>
 
-            <button class="button">Place order</button>
+            <button class="button" id="checkout">Place order</button>
          </form>
 
 
@@ -89,6 +89,7 @@
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
     <script src="main.js"></script>
 </body>
 </html>
