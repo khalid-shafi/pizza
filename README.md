@@ -15,7 +15,7 @@ Pizza website creates a web application where your customers order different siz
 * GIT
 * VISUAL STUDIO CODE
 ## link to live site on github
-
+* https://khalid-shafi.github.io/pizza/
 ## Contact information
 * email: khalidshafi2001@gmail.com
 * phone: 0729539712
