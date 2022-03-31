@@ -31,19 +31,19 @@
 
          <form id="form">
             <div class="lufluf">
-                <select id="size">
+                <select id="size" required>
                     <option>Choose Size</option>
                     <option value="1500">Large@1500</option>
                     <option value="1000">Medium@1000</option>
                     <option value="500">Small@500</option>
                 </select>
-                <select id="toppings">
+                <select id="toppings" required>
                     <option>Choose Toppings</option>
                     <option value="200">Olives@200</option>
                     <option value="150">Cheese@150</option>
                     <option value="100">pepperoni@100</option>
                 </select>
-                <select id="crust">
+                <select id="crust" required>
                     <option>Choose Crust</option>
                     <option value="200">Stuffed@200</option>
                     <option value="150">Gliten-free@150</option>
@@ -52,9 +52,10 @@
             </div>
 
             <div class="inputs">
-                <input type="number" placeholder="Number of pizza" id="number">
+                <input type="number" placeholder="Number of pizza" id="number" required>
             </div>
 
+         <div class="bulbul">
             <table class="table" id="show">
                 <thead>
                   <tr>
@@ -74,7 +75,15 @@
                     <td id="totals"></td>
                   </tr>
                 </tbody>
-              </table>
+            </table>
+            <h3>The total is: <span id="summary"></span></h3>
+            <h4>Would you like delivery for an additional ksh200?</h4>
+
+            <div class="yes-no">
+                <button id="yes">Yes</button>
+                <button>No</button>
+            </div>
+         </div>
 
             <button class="button" id="checkout">Place order</button>
          </form>
