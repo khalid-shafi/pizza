@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>PIZZA</title>
 </head>
 <body>
@@ -77,9 +78,15 @@
                 </tbody>
             </table>
             <h3>The total is: <span id="summary"></span></h3>
-            <h4>Would you like delivery for an additional ksh200?</h4>
 
-            <div class="yes-no">
+            <h4 id="khalid"></h4>
+            <div class="address">
+              <input type="text" class="shafi" placeholder="  &#xf3c5;   Choose Address" id="swali">
+              <button id="complete">Complete</button>
+            </div>
+            <h4 class="potea">Would you like delivery for an additional ksh200?</h4>
+
+            <div id="yes-no" class="potea">
                 <button id="yes">Yes</button>
                 <button>No</button>
             </div>

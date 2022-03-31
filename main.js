@@ -1,3 +1,12 @@
+$(document).ready(function(){
+    $("#yes").click(function(){
+        $(".potea").hide();
+        $("#checkout").hide();
+        $(".address").show();
+    });
+
+});
+
 function formReset() {
     document.getElementById("form").reset();
  }
@@ -14,23 +23,14 @@ function formReset() {
     let crusts = document.getElementById("crusts");
     let totals = document.getElementById("totals");
     let summary = document.getElementById("summary");
-    // const delivery = 200;
 
     $(".bulbul").show();
-    // $("#mum").show();
     quantity.innerHTML = (number);
-    // qty.innerHTML = (number);
     sizes.innerHTML = (size);
-    // pizzaSize.innerHTML = (size);
     toppingss.innerHTML = (topping);
-    // toping.innerHTML = (topping);
     crusts.innerHTML = (crust);
-    // sharif.innerHTML = (crust);
-    // deliveries.innerHTML = (delivery);
-    // shariff.innerHTML = (delivery);
     totals.innerHTML = totalPrice();
     summary.innerHTML = totalPrice();
-    // sharifu.innerHTML = totalPrice();
 
     formReset();
 
@@ -43,7 +43,25 @@ function formReset() {
     let crustss = $("#crust option:selected").val();
     let toppingsz = $("#toppings option:selected").val();
     let numberss = $("#number").val();
-    // let delivery = 200;
     let total = ((parseInt(sizess) + parseInt(crustss) + parseInt(toppingsz)) * numberss);
     return total;
  };
+
+ let complete = document.getElementById("complete");
+
+ complete.addEventListener("click", function (event){
+    event.preventDefault();
+    let address = document.getElementById("swali").value;
+    let approval = document.getElementById("khalid");
+    let delivery = 200;
+    let summaries = document.getElementById("summary");
+
+    $(".address").hide();
+
+
+    approval.innerHTML = "Your order has been received! We Are dispatching our nduthi to, " + address;
+   
+
+
+
+ });

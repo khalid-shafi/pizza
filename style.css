@@ -80,7 +80,7 @@
 .table tr td{
     color: wheat;
 }
-.order .yes-no button{
+.order #yes-no button{
     width: 60px;
     height: 40px;
     border: none;
@@ -91,4 +91,21 @@
 }
 .order .bulbul{
     display: none;
+}
+.address{
+    display: none;
+    margin: 1%;
+}
+.bulbul .address .shafi{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+    height: 35px;
+}
+#complete{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5f100e;
+    color: wheat;
 }
