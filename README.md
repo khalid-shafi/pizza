@@ -19,3 +19,5 @@ Pizza website creates a web application where your customers order different siz
 ## Contact information
 * email: khalidshafi2001@gmail.com
 * phone: 0729539712
+## Copyright and License Information.
+Licensed under [MIT LICENSE](https://github.com/khalid-shafi/pizza)
