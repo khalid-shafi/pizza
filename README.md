@@ -7,3 +7,10 @@ Pizza website creates a web application where your customers order different siz
 * [git clone project by clicking here]
 * cd project into project folder
 * Open project with either atom or visual studio code editor.
+## Technologies Used
+* HTML
+* CSS
+* BOOTSTRAP
+* JQUERY
+* GIT
+* VISUAL STUDIO CODE
