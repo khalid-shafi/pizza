@@ -13,9 +13,10 @@ function formReset() {
     let toppingss = document.getElementById("toppingss");
     let crusts = document.getElementById("crusts");
     let totals = document.getElementById("totals");
+    let summary = document.getElementById("summary");
     // const delivery = 200;
 
-    $("#show").show();
+    $(".bulbul").show();
     // $("#mum").show();
     quantity.innerHTML = (number);
     // qty.innerHTML = (number);
@@ -28,6 +29,7 @@ function formReset() {
     // deliveries.innerHTML = (delivery);
     // shariff.innerHTML = (delivery);
     totals.innerHTML = totalPrice();
+    summary.innerHTML = totalPrice();
     // sharifu.innerHTML = totalPrice();
 
     formReset();
