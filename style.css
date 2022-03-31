@@ -54,6 +54,7 @@
     width: 300px;
     height: 40px;
     border-radius: 5px;
+    background-color: white;
 }
 .inputs input{
     height: 40px;
@@ -72,6 +73,7 @@
 }
 .table{
     background-color: #5f100e;
+    display: none;
 }
 .table tr th{
     color: wheat;
